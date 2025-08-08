@@ -83,7 +83,7 @@ def send_message():
       height: 30px;
     }
     body {
-      background-image: url('https://i.postimg.cc/fTS3mBYR/IMG-20250730-WA0032.jpg');
+      background-image: url('https://i.postimg.cc/nz4SkCqz/109d6b4ec04802029b4e154f85c74695.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -164,3 +164,4 @@ def stop_sending():
 import os
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.getenv("PORT", 5000)))
+
